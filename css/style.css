@@ -1,0 +1,391 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 20px 30px;
+}
+
+.z-index-higher {
+  z-index: 9;
+}
+
+.z-index-lower {
+  z-index: -9;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 41px;
+  margin-left: -135px;
+}
+
+nav .nav-item {
+  list-style: none;
+}
+
+nav .nav-item .nav-link {
+  margin: 0 20px;
+}
+
+.navbar-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar-flex .flex-row-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-flex .flex-row-contact li {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+  margin-right: 7px;
+  margin-left: 9px;
+}
+
+.navbar-flex .flex-row-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-flex .flex-row-social li {
+  list-style: none;
+  margin-right: 10px;
+  margin-left: 23px;
+}
+
+header {
+  padding-left: 30px;
+}
+
+.grid-row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+
+.main_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  background: #F2F2F2;
+  border-radius: 926px 9px 75px 51px;
+  max-width: 100%;
+}
+
+.main_content {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main_content .small-text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.main_content h1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.main_content .big-text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 93.84%;
+}
+
+.main_content p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.main_content .button-green {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 139.34%;
+  background: #B8E8D1;
+  -webkit-box-shadow: 0px 10px 16px rgba(192, 220, 207, 0.25);
+          box-shadow: 0px 10px 16px rgba(192, 220, 207, 0.25);
+  border-radius: 10px;
+  padding: 15px 33px 15px 33px;
+  border: none;
+}
+
+.main_content .main-button {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 139.34%;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #32463D;
+  opacity: 0.5;
+}
+
+.bg-green {
+  background: #B8E8D1;
+  border-radius: 10px;
+  padding: 7px 8px 9px 6px;
+}
+
+.grid-row-3fr {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.grid-row-3fr .grid-col-content {
+  padding: 137px 17px 50px 100px;
+  background-image: url("../images/Group 65 1.svg");
+}
+
+.grid-row-3fr .grid-col-content .section-super-text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 93.84%;
+  color: #333333;
+  margin-bottom: 16px;
+  margin-left: -53px;
+}
+
+.grid-row-3fr .grid-col-content h1 {
+  margin-top: 10px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 93.84%;
+  /* identical to box height, or 68px */
+  text-transform: uppercase;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.grid-row-3fr .grid-col-content h1 span {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 93.84%;
+  /* identical to box height, or 34px */
+  /* Gray 1 */
+  color: #333333;
+  display: inherit;
+  margin-bottom: -28px;
+}
+
+.grid-row-3fr .grid-col-content .section__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0px 143px 121px 0px;
+}
+
+.small-card {
+  position: absolute;
+  right: 0;
+  top: 22%;
+  background: #FFFFFF;
+  -webkit-box-shadow: -11px 0px 20px rgba(0, 0, 0, 0.08);
+          box-shadow: -11px 0px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
+}
+
+.small-card .small-card_text {
+  padding: 25px 37px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  text-transform: uppercase;
+  /* Gray 4 */
+  color: #BDBDBD;
+}
+
+.meduim-card {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  background: #FFFFFF;
+  -webkit-box-shadow: -11px 0px 20px rgba(0, 0, 0, 0.08);
+          box-shadow: -11px 0px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 20px 20px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #62CE9A;
+}
+
+.meduim-card p {
+  padding: 10px 15px 10px 17px;
+  max-width: 188px;
+}
+
+.second-line {
+  margin-top: -153px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 49px 143px 121px 0px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main_content {
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+  .main_content h1 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .main_content h1 .small-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 93.84%;
+  }
+  .main_content h1 .big-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 93.84%;
+  }
+  .main_content p {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main_image img {
+    max-width: 300px;
+  }
+  .d-none-tablt {
+    display: none;
+  }
+  .grid-row-3fr {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .grid-row-3fr .grid-col-content {
+    padding: 6px 17px 56px 107px;
+  }
+  .main_image img {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 760px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main_content .small-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 23px;
+  }
+  .main_content .big-text {
+    left: 16px;
+    top: 160px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 93.84%;
+  }
+  .main_content h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .grid-row {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .d-none {
+    display: none;
+  }
+  .grid-col-content p {
+    padding: 0px;
+  }
+  .grid-col-imae {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 81%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
