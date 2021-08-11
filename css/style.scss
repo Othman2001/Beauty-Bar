@@ -345,12 +345,12 @@ header {
     }
     .grid-col-imae {
         position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 100%;
+        right: 0px;
+        bottom: 34px;
+        left: 26%;
         img {
-            max-width: 390px;
-            margin-left: 45px;
+            max-width: 190px;
+            margin-left: 245px;
         }
     }
 }
