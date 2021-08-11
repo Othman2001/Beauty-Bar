@@ -5,6 +5,31 @@ body {
           box-sizing: border-box;
 }
 
+.container {
+  max-width: 1900px !important;
+  margin: 0 auto;
+}
+
+.conatiner-xxlg {
+  max-width: 1320px;
+}
+
+.container-xlg {
+  max-width: 1140px;
+}
+
+.container-md {
+  max-width: 720px;
+}
+
+.container-small {
+  max-width: 540px;
+}
+
+.container-xs {
+  max-width: 576px;
+}
+
 .wrapper {
   padding: 20px 30px;
 }
@@ -297,7 +322,202 @@ header {
   padding: 49px 143px 121px 0px;
 }
 
+.grid-row-section_content-3 {
+  display: -ms-grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 70px 0px 55px;
+  gap: 30px;
+}
+
+.grdi-col-content-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grdi-col-content-3 h3 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 93.84%;
+}
+
+.grdi-col-content-3 p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* Gray 2 */
+  color: #4F4F4F;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.section_title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 93.84%;
+  /* identical to box height, or 68px */
+  text-transform: uppercase;
+  /* Gray 1 */
+  padding-top: 134px;
+  padding-left: 82px;
+  color: #333333;
+}
+
+.section_title span {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 93.84%;
+  color: #333333;
+}
+
+.margin-left-34 {
+  margin-left: 44px;
+}
+
+footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #333333;
+}
+
+footer .footer-part-1 {
+  padding: 47px 77px 100px;
+}
+
+footer .footer-part-1 .footer-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 93.84%;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+
+footer .footer-part-1 .footer-location {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+  color: #F2F2F2;
+}
+
+footer .list-flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-list li {
+  list-style: none;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  /* identical to box height, or 157% */
+  /* Gray 6 */
+  color: #F2F2F2;
+  opacity: 0.5;
+}
+
+.cotnact p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F2F2F2;
+}
+
+.cotnact .green {
+  color: #2CC21F;
+}
+
+.cotnact .upper-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+.cotnact .down-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+.footer-part-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-part-2 .footer-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 93.84%;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+
+.footer-part-2 .footer-list .list-title {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #F2F2F2;
+}
+
+.footer-part-2 .footer-list .list-title li {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #F2F2F2;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .container {
+    margin: 0 auto;
+    max-width: 720px;
+  }
   .main_content {
     padding-left: 0px;
     padding-right: 40px;
@@ -349,6 +569,26 @@ header {
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 760px) and (-webkit-min-device-pixel-ratio: 2) {
+  .flex-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .order-1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .flex-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .text-align-right {
+    text-align: left;
+  }
   .main_content .small-text {
     font-weight: 300;
     font-size: 24px;
@@ -394,5 +634,54 @@ header {
     max-width: 190px;
     margin-left: 245px;
   }
+  .container {
+    margin: 0 auto;
+    max-width: 576px;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1400px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    margin: 0 auto;
+    max-width: 1140px !important;
+  }
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 766px) {
+  .flex-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .flex-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .text-align-right {
+    text-align: left;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 540px;
+  }
+  .order-1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .container {
+    margin: 0 auto;
+    max-width: 960px !important;
+  }
+}
+
+.container-fluid {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
