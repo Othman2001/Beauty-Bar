@@ -378,6 +378,9 @@ header {
   .d-none {
     display: none;
   }
+  .grid-col-content {
+    background-image: none;
+  }
   .grid-col-content p {
     padding: 9px;
   }
